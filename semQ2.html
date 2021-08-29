@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <style>
+   /* Add a gray color to all navbar links */
+.navbar 
+{
+    margin-bottom: 0;
+    background-color:black ;
+    border: 0;
+    !important;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}
+
+
+/* Add a white color to all navbar links */
+
+.navbar .navbar-brand 
+{
+    color: white !important;
+	font-size: 30px;
+}
+
+/* Dropdown links */
+
+.dropdown-menu 
+{
+     background-color: WHITE;
+     font-weight: bold;
+     color: #000 !important;
+	 font-size: 15px;
+	 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	 min-width: 380px;
+}
+
+
+/* The active link */
+
+.navbar
+{
+    margin-bottom: 0;
+    background-color:black ;
+    border: 0 !important;
+    letter-spacing: 3px;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+  .navbar-nav li.active a 
+{
+    color: #fff !important;
+    background-color:#29292c !important;
+	font-size: 15px;
+}
+
+.container
+ {
+    padding: 80px 20px;
+ }
+  
+.padg
+{
+   width: 500px;
+   padding-left: 00cm;
+   padding-top: 00cm;
+}
+
+.padg 2
+{
+   padding-left: 50%;
+   padding-top: 00cm;
+}
+
+.dropdown-me
+{
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+	  
+.dropdown-he
+{
+   letter-spacing: 3px;
+   font-size: 20px;
+   font-family: "Times New Roman", Times, serif;
+   color: white;
+   text-align: left;
+   text-transform: capitalize;
+}
+  
+.newspaper
+{
+   -webkit-column-count: 3; /* Chrome, Safari, Opera */
+   -moz-column-count: 3; /* Firefox */
+   column-count: 3;
+   column-gap: 00px;
+}
+
+p.box 
+{
+    border-right: 100px solid #1c073a;
+	border-left: 100px solid #1c073a;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.h1
+{
+    font-size: 30px;
+    text-align: center;
+    background-color: #4CAF50;
+}
+
+#papers 
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#papers td, #papers th 
+{
+  border: 1px solid #030634;
+  padding: 8px;
+}
+
+#papers tr:nth-child(even){background-color: #f2f2f2;}
+
+#papers tr:hover {background-color: #ddd;}
+
+#papers th
+ {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #030634;
+  color: white;
+}
+footer 
+{
+     background-color: black;
+     color: #f5f5f5;
+     padding: 32px;
+}
+footer a
+ {
+     color: #f5f5f5;
+ }
+  
+footer a:hover
+ {
+     color: #777;
+     text-decoration: none;
+ } 
+ 
+.ii
+{
+    width:10px;
+    height:20px;
+}
+ </style>
+</head>
+
+<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"> StarLearn</a>
+    </div>
+   <ul class="nav navbar-nav navbar-right">
+   <li><a href="home3.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+	 
+    <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><color="white">Content
+    <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+	    <div class='w3-row-padding' style="padding:24px 48px">
+        
+		<div class='dropdown-me'>
+		
+		<div class='padg'>
+		
+      <li class="dropdown-header"><div class="dropdown-he">QUESTION PAPERS</div></li><br>
+      
+      <li><a href="semQ1.html">Semester 1</a></li>
+      <li><a href="semQ2.html">Semester 2</a></li>
+      <li><a href="semQ3.html">Semester 3</a></li>
+	  <li><a href="semQ4.html">Semester 4</a></li>
+	  <li><a href="semQ5.html">Semester 5</a></li>
+	  <li><a href="semQ6.html">Semester 6</a></li><br>
+	  <div class='padg'>
+	  
+      <li class="divider" style="padding-left:24px 48px" </li><br>
+      
+	  <tr><li class="dropdown-header"> <div class="dropdown-he">ANSWER PAPERS</div></li><br></tr>
+	  
+	  <li><a href="semA1.html">Semester 1</a></li>
+	  <li><a href="semA2.html">Semester 2</a></li>
+	  <li><a href="semA3.html">Semester 3</a></li>
+	  <li><a href="semA4.html">Semester 4</a></li>
+	  <li><a href="semA5.html">Semester 5</a></li>
+	  <li><a href="semA6.html">Semester 6</a></li><br>
+	  <div class='padg'>
+	  
+      <li class="divider" style="padding-left:200px 48px" </li><br>
+     
+	 <li class="dropdown-header"><div class="dropdown-he">NOTES</div></li><br>
+	  
+	  <li><a href="java.html">JAVA</a></li>
+	  <li><a href="mf.html">MATH FORMULE</a></li>
+        </ul>
+        </li>
+	 <li><a href="http://localhost/pro/contact.php">Contact</a></li>
+     </ul>
+  </div>
+</nav>
+<table id="papers">
+  <tr>
+    <th>COMMUNICATION SKILLS G-scheme</th>
+	</tr>
+  
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1kfOshAYKklh-ZJ2DG28z_motVf-9v71y/view?usp=sharing">17201 Model Question Paper 2015 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1awyxgnIajUc4VKQCOGYl8SARdnuDN8No/view?usp=sharing">17201 Model Question Paper 2015 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1D0VK6sjofwGe9USXNo9_lGcNMyGDZGCC/view?usp=sharing">17201 Model Question Paper 2016 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1XnNVsDsd_EClhFDQbSlndJ7FdT6_-mEc/view?usp=sharing">17201 Model Question Paper 2016 Winter</a></td>
+  </tr>
+   <tr>
+    <td><a href="https://drive.google.com/file/d/1mg4bqrQq8kbYnep8AeMEXSP6stSb1UIB/view?usp=sharing">17201 Model Question Paper 2017 Summer</a></td>
+  </tr>
+   <tr>
+    <td><a href="https://drive.google.com/file/d/1j28scBV2H4dHJVGOcOhPRP19oOwZZWeR/view?usp=sharing">17201 Model Question Paper 2017 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1wMlx0cP8bj1N3k__arQKfu86_xDKTDiJ/view?usp=sharing">17201 Model Question Paper 2018 Summer</a></td>
+  </tr>
+  <br>
+  <br>
+  </table>
+  
+ 
+  <table id="papers">
+  <tr>
+    <th>PROGRAMMING IN C G-scheme</th>
+	</tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1byXG6XWx13IUwXa866eIWG4BFoqmj-1D/view?usp=sharing">17212 Model Question Paper 2015 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1aV_kz5foMFHHvreIanhhZd9v9ivfvqmq/view?usp=sharing">17212 Model Question Paper 2015 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1oHiUSW3v5LelIBk0KSdkXYmAjNMt7UHM/view?usp=sharing">17212 Model Question Paper 2016 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1I1gnj_IMNOE3yBLLH7Pt-dZqeevBvtUu/view?usp=sharing">17212 Model Question Paper 2016 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1ffirfhHrvylpKvKwTUdNvwngEMIc-5Cl/view?usp=sharing">17212 Model Question Paper 2017 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1w77r9NGxhOGzcIFKN_rEGaq-m_gbQk6Z/view?usp=sharing">17212 Model Question Paper 2017 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/17BlnngunjdODSDyJBBWxGSt4th7Q7CLU/view?usp=sharing">17212 Model Question Paper 2018 Summer</a></td>
+  </tr>
+  <br>
+  <br>
+  <br>
+  </table><br>
+  
+  <table id="papers">
+  <tr>
+    <th>BASIC ELECTRONIC G-scheme</th>
+	</tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1x47bxf5z-Yy2noi5g3HBW0dU9VNykh4w/view?usp=sharing"> 17213 Model Question Paper 2015 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1xMgT1AnPcGlNEc1TtxeQQBWTNrImHhIG/view?usp=sharing">17213 Model Question Paper 2015 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1xbvYvOG_rnjt1qP1tukOXtezSk16gztB/view?usp=sharing">17213 Model Question Paper 2016 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1BS4zvfR0gl9Z9IT_HTk5Xe2D97lPX2bj/view?usp=sharing">17213 Model Question Paper 2016 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1lqL5EVRhmEC5OZg4-IYW2vTdPDkcFpPK/view?usp=sharing">17213 Model Question Paper 2017 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1X8vtW_thNbYQvNKEMJOGSflXpY7ybuAK/view?usp=sharing">17213 Model Question Paper 2017 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1sGfIrFsmhQi3Mkm484_kM41qSSQIzWcM/view?usp=sharing">17213 Model Question Paper 2018 Summer</a></td>
+  </tr>
+  <br>
+  <br>
+  </table>
+  <br>
+  <table id="papers">
+  <tr>
+    <th>APPLIED MATHEMATICS (17301)</th>
+	</tr>
+  
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1kEaYcfvnyHi0WSiLDw5vt-O0DTpXpZQM/view?usp=sharing">17301 Model Answer Paper 2015 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1B1ZrmoHx-M4AiDn60XxYn1QHndBrjGZ7/view?usp=sharing">17301 Model Answer Paper 2015 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1aS-Yqfh-KzQrd9PpIOqIRQKJbjf0aSuT/view?usp=sharing">17301 Model Answer Paper 2016 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1A9sNEF7xfGVMYPtNwYCMLr7-IaIuqjEH/view?usp=sharing">17301 Model Answer Paper 2016 Winter</a></td>
+  </tr>
+   <tr>
+    <td><a href="https://drive.google.com/file/d/1yRSspWPHVggcvKQ3QzpIx0Ti1X0K1WDc/view?usp=sharing">17301 Model Answer Paper 2017 Summer</a></td>
+  </tr>
+   <tr>
+    <td><a href="https://drive.google.com/file/d/1NRJtbAQX4ZYZnPPKshdYbVTLJFHtFnjN/view?usp=sharing">17301 Model Answer Paper 2017 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1eEKKJQYfUcHWr6fZjuiGYvBkXrchm1F4/view?usp=sharing">17301 Model Answer Paper 2018 Summer</a></td>
+  </tr>
+  <br>
+  <br>
+  </table><br>
+   <table id="papers">
+  <tr>
+    <th>ETG (17331)</th>
+	</tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1HULUnEFsh7-GpOqD8RePsK0TnYqCCKVe/view?usp=sharing"> 17331 Model Answer Paper 2015 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1ZEdh1W72H60DIka8SC-AWcXE3sHgigEH/view?usp=sharing">17331 Model Answer Paper 2015 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1wExoOJceviqHzbP6UuaxxvruEf3G-wGa/view?usp=sharing">17331 Model Answer Paper 2016 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1NDAwy384E4XAXrPNfrHC5VhJFRpsw2Xx/view?usp=sharing">17331 Model Answer Paper 2016 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1vLkFiNT4QzmAVJ6BGZViDSC4g5SLKEPC/view?usp=sharing">17331 Model Answer Paper 2017 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1TZfrI230CzFSJ386NhMR0DItIDF804jM/view?usp=sharing">17331 Model Answer Paper 2017 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1WpX89d8wX2hzy6wgQOn-LBi0p4CsULhP/view?usp=sharing">17331 Model Answer Paper 2018 Summer</a></td>
+  </tr>
+  <br>
+  <br>
+  </table><BR>
+  <table id="papers">
+  <tr>
+    <th> COMPUTER HARDWARE AND MAINTENANCE (17428)</th>
+	</tr>
+  
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1m6YisYP-kNPwPRiLSNQ9-iHT8JoVQ2A9/view?usp=sharing">17428 Model Question Paper 2014 Summer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1Xfb7uj3bKYylf-W7B5AlzTnXj_9sCNbo/view?usp=sharing">17428 Model Question Paper 2014 Winter</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/13D-2woGtjWs2Zd2vi944cJjZhX0Ez-fh/view?usp=sharing">17428 Model Question Paper 2015 Summer</a></td>
+  </tr>
+ 
+   <tr>
+    <td><a href="https://drive.google.com/file/d/1l_SCDqG1CY42AikMo69D-bBLJHOk2eTu/view?usp=sharing">17428 Model Question Paper 2016 Summer</a></td>
+  </tr>
+   
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1QmsnxBEGbODOoW_0Ygm8NNq7llh15_Gx/view?usp=sharing">17428 Model Question Paper 2017 Summer</a></td>
+  </tr>
+  <br>
+  <br>
+  </table><br>
+  <br>
+  <br>
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>This website is NOT official website of Maharashtra state board of technical education (MSBTE).
+  This website is developed to help the student preparing diploma engineering exams under MSBTE.
+  This website aims to provide the study resources such as question papers of privious years,model answers papers, simple notes,
+  and some videos link related to subjects needed for preparing the exam of MSBTE.</p>
+  
+  <p>for the other exam related info you visit on <a href="https://msbte.org.in" data-toggle="tooltip" title="msbte.org.in">www.msbte.org.in</a></p> 
+</footer>
+
+<script>
+$(document).ready(function(){
+    // Initialize Tooltip
+    $('[data-toggle="tooltip"]').tooltip(); 
+})
+</script>
+
+
+</body>
+</html>
